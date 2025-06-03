@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <meta
+      name="description"
+      content="Portfólio profissional com tema neon, apresentando competências em design e programação."
+    />
+    <meta
+      name="keywords"
+      content="portfólio, neon, designer, desenvolvedor, programação, frontend, backend, UI, UX"
+    />
+    <meta name="author" content="Allyson Fonseca" />
+    <meta name="robots" content="index, follow" />
+    <title>Portfólio Yunkally's</title>
+
+    <link
+      rel="icon"
+      href="favicon.ico"
+      type="image/x-icon"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"
+      defer
+    ></script>
+
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+
+    <div id="loader">
+      <div class="spinner"></div>
+      <h2>Loanding...</h2>
+    </div>
+
+    <div id="particles-js"></div>
+
+    <div id="progress-bar"></div>
+
+    <button
+      id="theme-toggle"
+      aria-label="Alternar tema"
+    >
+      🌓
+    </button>
+
+    <div id="palette-selector">
+      <button
+        class="palette-btn"
+        data-color="#00f7ff"
+        aria-label="Azul Neon"
+      ></button>
+      <button
+        class="palette-btn"
+        data-color="#ff00ff"
+        aria-label="Rosa Neon"
+      ></button>
+      <button
+        class="palette-btn"
+        data-color="#39ff14"
+        aria-label="Verde Neon"
+      ></button>
+      <button
+        class="palette-btn"
+        data-color="#ffea00"
+        aria-label="Amarelo Neon"
+      ></button>
+
+      <button
+        class="palette-btn theme-dark-only"
+        data-color="#ffffff"
+        aria-label="Branco Neon"
+      ></button>
+      <button
+        class="palette-btn theme-light-only"
+        data-color="#000000"
+        aria-label="Preto Neon"
+      ></button>
+    </div>
+
+
+    <main class="container">
+      <header class="intro fade-up">
+        <img
+          src="https://i.pinimg.com/736x/c5/b8/d8/c5b8d80d1acb90d5858d296cd32a7498.jpg"
+          alt="Foto de perfil"
+          class="profile-img"
+        />
+        <h1>Allyson Fonseca</h1>
+        <p>Designer & Desenvolvedor Full Stack</p>
+      </header>
+
+
+      <section class="competencias">
+        <h2 class="fade-up">Minhas Competências</h2>
+
+        <div class="competencias-designer fade-up">
+          <div class="card">
+            <img
+              src="https://i.pinimg.com/736x/29/95/95/29959595fe22edde8408b060d3ac3d82.jpg"
+              alt="Design Icon"
+            />
+            <h3>UI/UX Design</h3>
+            <p>
+              Criação de interfaces intuitivas e experiências incríveis
+              para os usuários.
+            </p>
+          </div>
+          <div class="card">
+            <img
+              src="https://www.luiconceitocriativo.com/eejoossa/2024/08/244421955_1062499494497845_7683090676434840618_n-1024x1024.jpg"
+              alt="Photoshop Icon"
+            />
+            <h3>Design Gráfico</h3>
+            <p>
+              Trabalhos gráficos de alta qualidade, branding, banners, logos
+              e mais.
+            </p>
+          </div>
+        </div>
+
+        <div class="competencias-prog fade-up">
+          <div class="card">
+            <img
+              src="https://sdmntprwestus.oaiusercontent.com/files/00000000-7b18-6230-9c3a-0cfb5c72e844/raw?se=2025-06-04T02%3A15%3A56Z&sp=r&sv=2024-08-04&sr=b&scid=100bc255-311d-513d-9d16-cd614f540ec8&skoid=789f404f-91a9-4b2f-932c-c44965c11d82&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-03T18%3A26%3A34Z&ske=2025-06-04T18%3A26%3A34Z&sks=b&skv=2024-08-04&sig=%2BZgZ60ln98DdV%2BepQ7OG33V/A41MP03ySNNdc2zbqnM%3D"
+              alt="Frontend Icon"
+            />
+            <h3>Front-End</h3>
+            <p>
+              Desenvolvimento web moderno, responsivo, com foco em
+              performance.
+            </p>
+          </div>
+          <div class="card">
+            <img
+              src="https://sdmntprwestus2.oaiusercontent.com/files/00000000-7798-61f8-89a0-4773f5cfe10d/raw?se=2025-06-04T02%3A17%3A02Z&sp=r&sv=2024-08-04&sr=b&scid=6523731e-b5db-597e-a0c2-edf2af2cff8e&skoid=789f404f-91a9-4b2f-932c-c44965c11d82&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-03T18%3A26%3A31Z&ske=2025-06-04T18%3A26%3A31Z&sks=b&skv=2024-08-04&sig=l1YdYojDyS20WgZ7URipV8hqUF5bVrYOPoqgDRQgxPg%3D"
+              alt="Backend Icon"
+            />
+            <h3>Back-End</h3>
+            <p>
+              Criação de APIs robustas, banco de dados, autenticação e
+              segurança.
+            </p>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="links fade-up">
+        <h2>Meus Links</h2>
+        <div class="link-blocks">
+          <div class="block">
+            <h3>Redes</h3>
+
+            <a
+              href="https://www.linkedin.com/in/allyson-roberto-silva-da-fonseca-142a962b6/"
+              target="_blank"
+              class="btn"
+            >
+              <img
+                src="https://i.pinimg.com/736x/de/7a/c0/de7ac0a218b27e3855e84f778703c1e7.jpg"
+                alt="LinkedIn"
+              />
+              LinkedIn
+            </a>
+            <a
+              href="https://github.com/yunkally"
+              target="_blank"
+              class="btn"
+            >
+              <img
+                src="https://i.pinimg.com/736x/64/88/0b/64880b9b0fe5b53bbe3f7280d262b33f.jpg"
+                alt="GitHub"
+              />
+              GitHub
+            </a>
+            <a
+              href="https://www.instagram.com/yunkally/"
+              target="_blank"
+              class="btn"
+            >
+              <img
+                src="https://i.pinimg.com/736x/ae/a3/35/aea335fd233887bd3057d9a01b111828.jpg"
+                alt="Instagram"
+              />
+              Instagram
+            </a>
+          </div>
+          <div class="block">
+            <h3>Projetos</h3>
+            <a href="#" class="btn">
+              <img
+                src="https://i.pinimg.com/736x/5e/d6/39/5ed63905c998c5c3cd29f2ab3890ee2e.jpg"
+                alt="Portifólio"
+              />
+              Projeto 1
+            </a>
+            <a href="#" class="btn">
+              <img
+                src="https://i.pinimg.com/736x/cf/37/b1/cf37b1a674bd04c4b9d53651a462c3b8.jpg"
+                alt="Projeto 2"
+              />
+              Projeto 2
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="fade-up">
+      <p>&copy; Portifólio Profissional - Allyson Fonseca</p>
+    </footer>
+  </body>
+</html>
